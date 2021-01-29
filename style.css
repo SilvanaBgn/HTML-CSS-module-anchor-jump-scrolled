@@ -82,3 +82,13 @@ CSS FOR THE ANCHOR JUMP
   background-color: rgb(245, 231, 159);
   border-color: yellow; /* This color shows up the content-box + padding*/
 }
+
+/* ---- Anchor 4: with scroll-margin-top property */
+.item_css_attr {
+  scroll-margin-top: 130px;
+  scroll-snap-margin-top: 130px; /* for Safari compatibility */
+}
+#four {
+  background-color: rgb(155, 192, 207);
+  border-color: blue; /* This color shows up the content-box + padding*/
+}
