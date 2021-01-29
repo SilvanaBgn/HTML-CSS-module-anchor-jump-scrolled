@@ -71,3 +71,14 @@ CSS FOR THE ANCHOR JUMP
   background-color: rgb(202, 219, 158);
   border-color: green;
 }
+
+/* ---- Anchor 3: with an additional div and position: relative */
+.item_posrel {
+  position: relative;
+  display: block;
+  top: -130px;
+}
+#three {
+  background-color: rgb(245, 231, 159);
+  border-color: yellow; /* This color shows up the content-box + padding*/
+}
