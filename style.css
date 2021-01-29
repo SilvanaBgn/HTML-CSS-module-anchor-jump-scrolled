@@ -61,3 +61,13 @@ CSS FOR THE ANCHOR JUMP
   border-color: orange;
   padding-top: 20px;
 }
+
+/* ---- Anchor 2: with padding and margin */
+.item_pdmg {
+  padding-top: 130px; /*remember header is 130px*/
+  margin-top: -130px;
+}
+#two {
+  background-color: rgb(202, 219, 158);
+  border-color: green;
+}
