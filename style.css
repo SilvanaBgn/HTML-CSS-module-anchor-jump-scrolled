@@ -47,3 +47,17 @@ nav a span {
 .space_btw::before {
   content: attr(data-content);
 }
+
+/* ---------------------------
+CSS FOR THE ANCHOR JUMP
+---------------------------- */
+.item {
+  height: 200px;
+  border: 1px solid gray;
+}
+#one {
+  background: rgb(255, 207, 125);
+  /* This color shows up the content-box + padding*/
+  border-color: orange;
+  padding-top: 20px;
+}
